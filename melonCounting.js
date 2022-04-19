@@ -19,7 +19,7 @@ function count_melons(melonsArray) {
 
     const melonCounts = {};
 
-    for (const melon of  melonsArray) {
+    for (const melon of melonsArray) {
         if (melon in melonCounts) {
             melonCounts[melon] += 1;
         }
